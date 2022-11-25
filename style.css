@@ -124,8 +124,5 @@ main .search-box  input {
     width: 84%
 }
 
-main .search-box form input:focus .search-box {
-    background-color: #303134;
-    border-color: #303134;
-}
+
 /* Styling the Search Box End */
