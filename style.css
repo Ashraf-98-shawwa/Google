@@ -17,11 +17,6 @@ a {
 
 
 /* Global styling */
-
-
-
-
-
 body {
     background-color: #202124;
     color: #fff;
@@ -113,7 +108,7 @@ main .search-box form {
     height: 100%;
 }
 
-main .search-box  input {
+main .search-box input {
     background-color: transparent;
     border: 0px;
     outline: none;
@@ -124,5 +119,101 @@ main .search-box  input {
     width: 84%
 }
 
+main form img {
+    cursor: pointer;
+}
 
 /* Styling the Search Box End */
+
+/* Styling the buttons start */
+
+.buttons {
+    margin-top: 18px;
+
+}
+
+.buttons input {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 11px 3px;
+    padding: 1px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 57px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons input:hover {
+    box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+/* Styling the buttons  End*/
+
+
+/* styling the language box start */
+.language {
+    margin-top: 18px;
+    font-size: small;
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+}
+
+.language a {
+    color: #8ab4f8;
+    padding: 3px;
+}
+
+/* styling the language box End */
+
+
+/* styling the footer start */
+footer {
+    background-color: #171717;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #9aa0a6;
+    height: 94px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 15px;
+}
+
+footer>p {
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    text-transform: capitalize;
+}
+
+footer section {
+        padding: 14px 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section ul:nth-child(1) {
+    display: flex;
+    gap: 30px;
+    margin-left: 1px;
+}
+
+footer section ul:nth-child(2) {
+    display: flex;
+    gap: 30px;
+    margin-right: 1px;
+}
+
+footer section ul li a {
+    color: #9aa0a6;
+    font-size: 14px;
+}
+
+/* styling the footer  end*/
